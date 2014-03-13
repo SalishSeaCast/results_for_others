@@ -60,7 +60,7 @@ license = """
 ##Copyright
 
 These notebooks and files are copyright {this_year}
-by the Salish Sea MEOPAR Project Contributors
+by the [Salish Sea MEOPAR Project Contributors](https://bitbucket.org/salishsea/docs/src/tip/CONTRIBUTORS.rst)
 and The University of British Columbia.
 
 Please contact Dr. Susan Allen <sallen@eos.ubc.ca> for permission

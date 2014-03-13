@@ -14,7 +14,7 @@ Descriptions below the links are from the first cell of the notebooks
 ##Copyright
 
 These notebooks and files are copyright 2014
-by the Salish Sea MEOPAR Project Contributors
+by the [Salish Sea MEOPAR Project Contributors](https://bitbucket.org/salishsea/docs/src/tip/CONTRIBUTORS.rst)
 and The University of British Columbia.
 
 Please contact Dr. Susan Allen <sallen@eos.ubc.ca> for permission
