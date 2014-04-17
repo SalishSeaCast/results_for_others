@@ -10,6 +10,11 @@ Descriptions below the links are from the first cell of the notebooks
     
     Tides in Baynes Sound, Oct 18, 2002 for Debby Ianson  
 
+* ##[Fraser Ridge Current.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/results/raw/tip/preliminary/Fraser Ridge Current.ipynb)  
+    
+    Notebook to show the deep incoming current on the east side of the southern Strait of Georgia.  
+    These are <b>Preliminary</b> results.  
+
 
 ##Copyright
 
