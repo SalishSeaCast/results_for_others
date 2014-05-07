@@ -15,6 +15,10 @@ Descriptions below the links are from the first cell of the notebooks
     Notebook to show the deep incoming current on the east side of the southern Strait of Georgia.  
     These are <b>Preliminary</b> results.  
 
+* ##[Olympic Counter-Current.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/results/raw/tip/preliminary/Olympic Counter-Current.ipynb)  
+    
+    Very preliminary results on currents in Juan de Fuca  
+
 
 ##Copyright
 
