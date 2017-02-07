@@ -1,0 +1,20 @@
+# create an environment in which notebooks in this directory can be run with:
+#
+#  conda env create -f environment.yaml
+
+name: BoundaryPassCentralNode
+
+channels:
+  - defaults
+
+dependencies:
+  - bottleneck
+  - dask
+  - hdf4
+  - netCDF4
+  - notebook
+  - pip
+  - python=3.6
+  - xarray
+  - pip:
+      - arrow
