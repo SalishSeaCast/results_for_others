@@ -7,6 +7,19 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ##[BoundaryPassCentralNodeResultsSlab.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/results/raw/tip/BoundaryPassCentralNodeForRich/BoundaryPassCentralNodeResultsSlab.ipynb)  
+    
+    **Boundary Pass Central Node Model Results Slab**  
+      
+    Assemble time series from a model results slab for Rich:  
+      
+    * NEMO-3.6 nowcast-green runs  
+    * full water column  
+    * hourly average results at Boundary Pass location of ONC mooring  
+    * hourly average results at ONC central node  
+    * 13-26 Jul-2016  
+
+
 * ##[BoundaryPassCentralNodeResultsTimeSeries.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/results/raw/tip/BoundaryPassCentralNodeForRich/BoundaryPassCentralNodeResultsTimeSeries.ipynb)  
     
     **Boundary Pass and ONC Central Node Results Time Series**  
