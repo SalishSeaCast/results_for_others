@@ -9,6 +9,7 @@ channels:
 
 dependencies:
   - bottleneck
+  - cmocean
   - dask
   - hdf4
   - jupyter_contrib_nbextensions
