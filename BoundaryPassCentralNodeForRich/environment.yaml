@@ -11,6 +11,7 @@ dependencies:
   - bottleneck
   - dask
   - hdf4
+  - jupyter_contrib_nbextensions
   - netCDF4
   - notebook
   - pip
@@ -18,3 +19,4 @@ dependencies:
   - xarray
   - pip:
       - arrow
+      - yapf
