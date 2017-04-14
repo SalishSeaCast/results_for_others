@@ -45,9 +45,9 @@ offsets = {'north': 0, 'south': 5, 'east': 25, 'west': 15}
 y_slice = slice(boundary_ji[0] - offsets['south'], central_ji[0] + offsets['north'])
 x_slice = slice(central_ji[1] - offsets['west'], boundary_ji[1] + offsets['east'])
 
-start_date = arrow.get('2016-07-13')
+start_date = arrow.get('2016-08-09')
 start_yyyymmdd = start_date.format('YYYYMMDD')
-end_date = arrow.get('2016-07-26')
+end_date = arrow.get('2016-08-22')
 end_yyyymmdd = end_date.format('YYYYMMDD')
 time_origin = start_date.format('YYYY-MM-DD HH:mm:ss')
 
@@ -101,8 +101,8 @@ with xr.open_mfdataset(datasets) as results:
         f'SalishSea_1h_{start_yyyymmdd}_{end_yyyymmdd}_grid_{grid}.nc',
         format='netCDF4', engine='netcdf4',
         encoding={
-            'time_counter': {'units': 'hours since 2016-06-13 00:00:00'},
-            'time_centered': {'units': 'hours since 2016-06-13 00:00:00'},
+            'time_counter': {'units': f'hours since {time_origin}'},
+            'time_centered': {'units': f'hours since {time_origin}'},
         },
         unlimited_dims='time_counter',
     )
@@ -137,8 +137,8 @@ with xr.open_mfdataset(datasets) as results:
         f'SalishSea_1h_{start_yyyymmdd}_{end_yyyymmdd}_grid_{grid}.nc',
         format='netCDF4', engine='netcdf4',
         encoding={
-            'time_counter': {'units': 'hours since 2016-06-13 00:00:00'},
-            'time_centered': {'units': 'hours since 2016-06-13 00:00:00'},
+            'time_counter': {'units': f'hours since {time_origin}'},
+            'time_centered': {'units': f'hours since {time_origin}'},
         },
         unlimited_dims='time_counter',
     )
@@ -172,8 +172,8 @@ with xr.open_mfdataset(datasets) as results:
         f'SalishSea_1h_{start_yyyymmdd}_{end_yyyymmdd}_grid_{grid}.nc',
         format='netCDF4', engine='netcdf4',
         encoding={
-            'time_counter': {'units': 'hours since 2016-06-13 00:00:00'},
-            'time_centered': {'units': 'hours since 2016-06-13 00:00:00'},
+            'time_counter': {'units': f'hours since {time_origin}'},
+            'time_centered': {'units': f'hours since {time_origin}'},
         },
         unlimited_dims='time_counter',
     )
@@ -207,8 +207,8 @@ with xr.open_mfdataset(datasets) as results:
         f'SalishSea_1h_{start_yyyymmdd}_{end_yyyymmdd}_grid_{grid}.nc',
         format='netCDF4', engine='netcdf4',
         encoding={
-            'time_counter': {'units': 'hours since 2016-06-13 00:00:00'},
-            'time_centered': {'units': 'hours since 2016-06-13 00:00:00'},
+            'time_counter': {'units': f'hours since {time_origin}'},
+            'time_centered': {'units': f'hours since {time_origin}'},
         },
         unlimited_dims='time_counter',
     )
